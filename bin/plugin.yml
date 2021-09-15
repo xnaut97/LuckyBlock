@@ -1,0 +1,66 @@
+name: LuckyBlock
+version: 0.0.1
+main: net.tez.luckyblocks.LuckyBlocks
+api-version: 1.13
+author: ＴｅｚＩＶＮ , ＰＤＸ－Ｔｅａｍ
+depend: [NBTAPI]
+softdepend: [ClearLag]
+commands:
+  luckyblock:
+    usage: /luckyblock | /lb
+    aliases: [lb]
+permissions:
+  luckyblock.*:
+    default: op
+    children:
+      luckyblock.command.add: true
+      luckyblock.command.clear: true
+      luckyblock.command.give: true
+      luckyblock.command.giveitem: true
+      luckyblock.command.help: true
+      luckyblock.command.items: true
+      luckyblock.command.modify: true
+      luckyblock.command.reload: true 
+      luckyblock.command.remove: true 
+      luckyblock.command.rename: true 
+      luckyblock.command.setitem: true
+      luckyblock.notify.add: true
+      luckyblock.notify.remove: true
+      luckyblock.notify.setitem: true
+      luckyblock.notify.rename: true
+      luckyblock.notify.clear: true
+      luckyblock.item.modify: true
+  luckyblock.command.add:
+    default: op
+  luckyblock.command.clear:
+    default: op
+  luckyblock.command.give:
+    default: op
+  luckyblock.command.giveitem:
+    default: op
+  luckyblock.command.help:
+    default: true
+  luckyblock.command.items:
+    default: true
+  luckyblock.command.modify:
+    default: op
+  luckyblock.command.reload:
+    default: op
+  luckyblock.command.remove:
+    default: op
+  luckyblock.command.rename:
+    defaut: op
+  luckyblock.command.setitem:
+    default: op
+  luckyblock.notify.add:
+    default: op
+  luckyblock.notify.remove:
+    default: op
+  luckyblock.notify.setitem:
+    default: op
+  luckyblock.notify.rename:
+    default: op
+  luckyblock.notify.clear:
+    default: op 
+  luckyblock.item.modify:
+    default: op

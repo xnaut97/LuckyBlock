@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8.3-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8.4-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8.5-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8.6-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8.7-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.9.2-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.9.4-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.9-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.10.2-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.10-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.11.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.11.2.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.12.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.12.2.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.12.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.13.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.13.2.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.13.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.14.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.14.2.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.14.3.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.14.4.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.14.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.15.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.15.2.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.16.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.16.2.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.16.3.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.16.4.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.16.5.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/TestServer 1.16/item-nbt-api-plugin-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/TestServer 1.16/Clearlag.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.17.1.jar"/>
+	<classpathentry kind="lib" path="D:/All about Minecraft Server/Paper All Version For Spigot Upload/Spigot/spigot-1.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

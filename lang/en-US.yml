@@ -1,0 +1,92 @@
+# What's 'is-default-language' ?
+# it will return 'en-US' if plugin can't find valid language
+# you set in 'locale: <language-format>' (config.yml)'
+is-default-language: true
+
+item:
+  type: "END_STONE"
+  displayName: "&6&lLucky Block"
+  lore:
+    - "&7» View available items by: &6/lb items"
+    - " "
+    - "&7» Right-click: &aActivate and rolling for items."
+
+command:
+  consoleNotAllowed: "&cThis command can be executed by player only!"
+  noPermission: "&cYou don't have permissions to use this command!"
+  invalid: "&cInvalid command, Please use &6/lb help &cfor available commands!"
+  target:
+    empty: "&cPlease type a specific player name!"
+    notOnline: "&cPlayer &6%player-name% &cis not online!"
+    notExist: "&cCould not find player with name &6%name%"
+  amount:
+    empty: "&cPlease type a specific amount!"
+    negativeAmount: "&cAmount must equals or greater than &61"
+    limit: "&cAmount cannot greater than &664"
+    invalid: "&cAmount must be a number!"
+  chance:
+    empty: "&cPlease type a specific chance!"
+    negativeAmount: "&cChance must greater or equals 1%"
+    limit: "&cChance cannot greater than &6100%"
+    invalid: "&cChance must be a number!"
+  page:
+    negativeAmount: "&cPage must greater or equals 1"
+    limit: "&cPage cannot greater than &6%max-page%"
+    invalid: "&cPage must be a number!" 
+  itemEmpty: "&cYou must hold item in hand!"
+  name:
+    empty: "&cPlease type a specific name!"
+    duplicate: "&cNew registry name cannot be the same as old registry name."
+    alreadyTaken: "&cRegistry name &6%registry-name% &cis already taken, please choose other name."
+    notFound: "&cCould not find item with name &6%registry-name%"
+  give: 
+    sender: "&aGiving &6%lucky-block-display-name% x%amount% &ato player &6%player-name%"
+    target: "&aYou've received &6%lucky-block-display-name% x%amount% &afrom server."
+  giveItem: 
+    sender: "&aGiving &6%item-display-name% x%amount% from registry name &6%registry-name%"
+    target: "&aYou've received &6%item-display-name% x%amount% &afrom lucky block!"
+  add:
+    sender: "&aAdded new item with registry name &6%registry-name% &asuccessfully!"
+    others: "&ePlayer &b%player-name% &ehas added new item with regsitry name &b%registry-name%"
+  remove:
+    sender: "&aRemoved item with registry name &6%registry-name% &asuccessfully!"
+    others: "&eItem with registry name &b%registry-name% &ehas been removed by &b%player-name%"
+  modify:
+    type: "&cPlease choose data-type to modify: &6chance/amount"
+    emptyValue: "&cPlease type a specific value!"
+    chance: "&aChance has been changed from &7%old-chance% &ato &6%new-chance%"
+    amount: "&aAmount has been changed from &7%old-amount% &ato &6%new-amount%"
+  setItem:
+    sender: "&aChanged item of registry name &6%registry-name% &asuccessfully!"
+    others: "&ePlayer &b%player-name% &ehas changed item of registry name &b%registry-name%"
+  rename:
+    sender: "&aChanged registry name from &7%old-registry-name% &ato &6%new-registry-name%"
+    others: "&eRegistry name &b%old-registry-name% &ehas been changed to &b%new-registry-name% &eby &c%player-name%"
+  clear:
+    noItems: "&cThere's no items to be cleared!"
+    sender: "&aCleared total &6%amount% &aitems from lucky block!"
+    others: "&eTotal &b%amount% &eitems of lucky block has been cleared by &b%player-name%"
+  reload: "&aReloaded plugin successfully!"
+  help: "&7» &6/lb %command-name%&7: %command-description%"
+
+luckyBlock:
+  noReward: "&cThere's no reward in lucky block to roll!"
+  place: 
+    alreadyRolling: "&cYou're already using lucky block, please wait until it finish!"
+    activate: "&aYou've activated lucky block, rolling items..."
+  break: "&cUnable to break lucky block!"
+  announce:
+    global: "&6Wooaa! Player &b%player-name% &6has rolled out &b%reward-item% x%amount% from lucky block!"
+    player: "&aCongratz! You receive &6%reward-item% x%amount% &afrom lucky block!"
+    unlucky: "&cUnlucky! You did not receive any items from lucky block, try next time!"
+
+itemPreview:
+  nameColor: "&b&l"
+  lore:
+    member:
+      - "&7» Chance: &6%roll-chance%"
+    admin:
+      - "&7» Registry name: &b%registry-name%"
+      - "&7» Chance: &6%roll-chance%%"
+      - "&7» Date created: &a%date-created%"
+      - "&7» Creator: &c%item-creator%"

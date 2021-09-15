@@ -1,0 +1,19 @@
+# Choose locale from lang folder
+locale: en-US
+
+# Animation speed is the speed
+# of lucky blocks rolling items
+# Time unit is seconds
+# The lower value , the faster roll item speed
+animationSpeed: 0.2
+
+# The time of animation that lucky block will execute
+# Set 0 to make player get item instantly without animation
+animationTime: 10
+
+# Waiting time when the lucky block finish rolling items
+# Time unit is seconds
+waitingTime: 2
+
+# Broadcast to global when someone rolled out item from luckyblock.
+broadcastGlobal: true

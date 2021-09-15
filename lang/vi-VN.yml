@@ -1,0 +1,87 @@
+item:
+  type: "END_STONE"
+  displayName: "&6&lKhối May Mắn"
+  lore:
+    - "&7» Xem các vật phẩm hiện có: &6/lb items"
+    - " "
+    - "&7» Chuột-phải: &aĐặt xuống đất và kích hoạt."
+
+command:
+  consoleNotAllowed: "&cLệnh này chỉ được sử dụng bởi người chơi!"
+  noPermission: "&cBạn không có quyền truy cập lệnh này!"
+  invalid: "&cLệnh không hợp lệ, vui lòng dùng &6/lb help &cđể xem danh sách lệnh!"
+  target:
+    empty: "&cVui lòng nhập tên người chơi cụ thể!"
+    notOnline: "&cNgười chơi &6%player-name% &chiện không trực tuyến!"
+    notExist: "&cKhông thể tìm thấy người chơi với tên &6%name%"
+  amount:
+    empty: "&cVui lòng nhập số lượng cụ thể!"
+    negativeAmount: "&cSố lượng phải lớn hơn hoặc bằng &61"
+    limit: "&cSố lượng không thể lớn hơn &664"
+    invalid: "&cSố lượng phải là một con số!"
+  chance:
+    empty: "&cVui lòng nhập tỉ lệ cụ thể!"
+    negativeAmount: "&cTỉ lệ phải lớn hơn hoặc bằng 1%"
+    limit: "&cTỉ lệ không thể lớn hơn &6100%"
+    invalid: "&cTỉ lệ phải là một con số!"
+  page:
+    negativeAmount: "&cSố trang phải lớn hơn hoặc bằng 1"
+    limit: "&cSố trang không thể lớn hơn &6%max-page%"
+    invalid: "&cSố trang phải là một con số!" 
+  itemEmpty: "&cVui lòng cầm vật phẩm trên tay!"
+  name:
+    empty: "&cVui lòng nhập một cái tên đăng ký cụ thể!"
+    duplicate: "&cTên đăng ký mới không thể trùng với tên đăng ký cũ."
+    alreadyTaken: "&cTên đăng ký &6%registry-name% &cđã được dùng, vui lòng chọn tên khác."
+    notFound: "&cKhông thể tìm thấy vật phẩm với tên &6%registry-name%"
+  give: 
+    sender: "&aĐang trao &6%lucky-block-display-name% x%amount% &acho người chơi &6%player-name%"
+    target: "&aBạn đã nhận được &6%lucky-block-display-name% x%amount% &atừ máy chủ."
+  giveItem: 
+    sender: "&aĐang trao &6%item-display-name% x%amount% từ tên đăng ký &6%registry-name%"
+    target: "&aBạn đã nhận được &6%item-display-name% x%amount% &atừ khối may mắn!"
+  add:
+    sender: "&aĐã thêm vật phẩm mới với tên đăng ký là &6%registry-name% &athành công!"
+    others: "&eNgười chơi &b%player-name% &eđã thêm một vật phẩm mới với tên đăng ký là &b%registry-name%"
+  remove:
+    sender: "&aĐã xóa vật phẩm với tên đăng ký là 6%registry-name% &athành công!"
+    others: "&eVật phẩm với tên đăng ký là &b%registry-name% &eđã bị xóa bởi người chơi &b%player-name%"
+  modify:
+    type: "&cVui lòng chọn kiểu dữ liệu để chỉnh sửa: &6chance/amount"
+    emptyValue: "&cVui lòng nhập một giá trị cụ thể!"
+    chance: "&aTỉ lệ đã được thay đổi từ &7%old-chance% &athành &6%new-chance%"
+    amount: "&aSố lượng đã được thay đổi từ &7%old-amount% &athành &6%new-amount%"
+  setItem:
+    sender: "&aĐã thay đổi vật phẩm với tên đăng ký là &6%registry-name% &athành công!"
+    others: "&eNgười chơi &b%player-name% &eđã thay đổi vật phẩm với tên đăng ký là &b%registry-name%"
+  rename:
+    sender: "&aĐã thay đổi tên đăng ký từ &7%old-registry-name% &athành &6%new-registry-name%"
+    others: "&eTên đăng ký &b%old-registry-name% &eđã bị thay đổi thành &b%new-registry-name% &ebởi &c%player-name%"
+  clear:
+    noItems: "&cKhông có vật phẩm nào để xóa!"
+    sender: "&aĐã xóa tổng cộng &6%amount% &avật phẩm từ khối may mắn!"
+    others: "&eTổng cộng &b%amount% &evật phẩm từ khối may mắn đã bị xóa bởi người chơi &b%player-name%"
+  reload: "&aTải lại plugin thành công!"
+  help: "&7» &6/lb %command-name%&7: %command-description%"
+
+luckyBlock:
+  noReward: "&cKhông có vật phẩm nào trong khối may mắn để kích hoạt!"
+  place: 
+    alreadyRolling: "&cBạn đang kích hoạt khối may mắn, vui lòng đợi đến khi nó kết thúc!"
+    activate: "&aBạn đã kích hoạt khối may mắn, đang chọn vật phẩm...."
+  break: "&cKhông cho phép phá khối may mắn!"
+  announce:
+    global: "&6Wooaa! Người chơi &b%player-name% &6đã nhận được &b%reward-item% x%amount% từ khối may mắn!"
+    player: "&aChúc mừng! Bạn nhận được &6%reward-item% x%amount% &atừ khối may mắn!"
+    unlucky: "&cThật không may! Bạn không nhận được vật phẩm nào từ khối may mắn, thử lại lần sau nhé!"
+
+itemPreview:
+  nameColor: "&b&l"
+  lore:
+    member:
+      - "&7» Tỉ lệ: &6%roll-chance%"
+    admin:
+      - "&7» Tên đăng ký: &b%registry-name%"
+      - "&7» Tỉ lệ: &6%roll-chance%%"
+      - "&7» Ngày tạo: &a%date-created%"
+      - "&7» Người tạo: &c%item-creator%"
